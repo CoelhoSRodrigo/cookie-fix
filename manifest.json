@@ -1,0 +1,30 @@
+{
+  "name": "Cookie Fix",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Google Chrome extension that sets a website cookie value every 5 seconds",
+  "icons": {
+    "16": "images/16.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/19.png",
+      "38": "images/38.png"
+    }
+  },
+  "background": {
+    "scripts": ["uri_parser.js", "eraser.js"]
+  },
+  "permissions": [
+    "cookies",
+    "tabs",
+    "notifications",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "web_accessible_resources": [
+    "images/48.png"
+  ]
+}
