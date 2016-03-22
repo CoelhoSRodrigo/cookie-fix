@@ -1,2 +1,2 @@
 # cookie-fix
-Google Chrome extension that sets a cookie value every 5 seconds
+Google Chrome extension that sets a website cookie value every 5 seconds
